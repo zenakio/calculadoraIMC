@@ -2,7 +2,7 @@
 <input type="number" [(ngModel)]="peso" placeholder="Peso (Kg)">
 <input type="number" [(ngModel)]="altura" placeholder="Altura (Ex. 1.75)">
 <button (click)="calcularIMC()">Calcular</button>
-<div *ngIf="resultado > 0">
+<div *ngIf="imc > 0">
   <p>Seu IMC:{{ imc }}</p>
   <p>Situação:<strong>{{ resultado }}</strong></p>
 </div>
