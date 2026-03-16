@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* Centralizar tudo na tela */
+=======
+>>>>>>> 16f3428afade74621a42f0011b93c500614f1964
 body{
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(135deg, #4facfe, #00f2fe);
@@ -6,15 +9,22 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
 }
 
 /* Título */
+=======
+  margin: 0;
+}
+
+>>>>>>> 16f3428afade74621a42f0011b93c500614f1964
 h1{
   text-align: center;
   color: #333;
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 /* Inputs */
 input{
   display: block;
@@ -36,11 +46,45 @@ button{
   background-color: #4facfe;
   color: white;
   font-size: 16px;
+=======
+.container{
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus{
+  outline: none;
+  border-color: #4facfe;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  background: #4facfe;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+>>>>>>> 16f3428afade74621a42f0011b93c500614f1964
   cursor: pointer;
   transition: 0.3s;
 }
 
 button:hover{
+<<<<<<< HEAD
   background-color: #00c6ff;
 }
 
@@ -60,4 +104,16 @@ strong{
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+=======
+  background: #00c6ff;
+}
+
+div p{
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+strong{
+  color: #4facfe;
+>>>>>>> 16f3428afade74621a42f0011b93c500614f1964
 }
